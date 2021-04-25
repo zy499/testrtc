@@ -21,12 +21,12 @@
     "zego-express-engine-electron": "^0.22.3-203",
     "zego-express-engine-webrtc": "^2.5.0"
   },
-  "mac":{
+  "mac": {
     "entitlements": "entitlements.mac.plist",
     "hardenedRuntime": true,
     "extendInfo": {
-        "NSMicrophoneUsageDescription": "请允许本程序访问您的麦克风",
-        "NSCameraUsageDescription": "请允许本程序访问您的摄像头"
+      "NSMicrophoneUsageDescription": "请允许本程序访问您的麦克风",
+      "NSCameraUsageDescription": "请允许本程序访问您的摄像头"
     }
   },
   "devDependencies": {
@@ -47,5 +47,6 @@
     "sass-loader": "^8.0.2",
     "vue-cli-plugin-electron-builder": "^2.0.0-rc.6",
     "vue-template-compiler": "^2.6.11"
-  }
+  },
+  "__npminstall_done": false
 }
