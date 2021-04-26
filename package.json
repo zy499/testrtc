@@ -21,12 +21,14 @@
     "zego-express-engine-electron": "^0.22.3-203",
     "zego-express-engine-webrtc": "^2.5.0"
   },
-  "mac": {
-    "entitlements": "entitlements.mac.plist",
-    "hardenedRuntime": true,
-    "extendInfo": {
-      "NSMicrophoneUsageDescription": "请允许本程序访问您的麦克风",
-      "NSCameraUsageDescription": "请允许本程序访问您的摄像头"
+  "build": {
+    "mac": {
+      "entitlements": "entitlements.mac.plist",
+      "entitlementsInherit": "entitlements.mac.plist",
+      "extendInfo": {
+        "NSMicrophoneUsageDescription": "请允许本程序访问您的麦克风",
+        "NSCameraUsageDescription": "请允许本程序访问您的摄像头"
+      }
     }
   },
   "devDependencies": {
